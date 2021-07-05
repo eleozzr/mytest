@@ -1,0 +1,22 @@
+Package: mytest
+Type: Package
+Title: Print Hello World
+Version: 0.1.0
+Author: Xiangjie
+Maintainer: Xiangjie <yourself@somewhere.net>
+Description: This Package aims to .....
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.1.0)
+Imports:
+    ggplot2
+Suggest:
+    roxygen2
+    knitr
+RoxygenNote: 7.1.1
+Suggests: 
+    rmarkdown,
+    knitr
+VignetteBuilder: knitr
